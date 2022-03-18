@@ -1,0 +1,39 @@
+form{
+    margin-right:auto;
+    margin-left:auto;
+    width:70%;
+    display:none;
+}
+p{
+    display:inline;
+}
+input{
+    display:inline;
+}
+.qst{
+    background: 	#e087004f;
+    border:2px rgb(255, 255, 255) solid;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:70%;
+    padding:20px 20px;
+    line-height: 30px;
+}
+#quiz2,#quiz1,#quiz3{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:30px;
+    width:50%;
+    height:100px;
+    display:block;
+    background-color:#31332d;
+    color:white;
+}
+.instruction{
+    margin-right:auto;
+    margin-left:auto;
+    width:70%;
+    border:0.5px solid gray;
+    padding:30px 30px;
+}
