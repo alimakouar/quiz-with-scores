@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Quiz by ALI MAKOUAR</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styleQuiz.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+    <script src="assets/bootstrap/js/jquery.js"></script>
+
+</head>
+
+<body onload="main()">
+              
+    <header class="text-center text-white masthead">
+        <div class="masthead-content" style="margin-top: -120px;">
+            <div class="container">
+                <h1 class="masthead-heading mb-0">Quiz</h1>
+                <h5>You should answer at least 7 questions for each quiz to get the score !</h5>
+                <h9>An answer that was given by a hint is counted as a false one. </h9>
+            </div>
+            <div class="jeu">
+                <button id="quiz1" type="button" onclick="showForm(this.nextSibling.nextSibling.id)"><img src="assets/pics/down.png" style="width: 20px;margin-right: 30px;">Show 1st quiz</button>
+                <form id="html">  
+                    <script src="miseEnForme.js"></script>
+                </form>
+                <button id="quiz2" type="button" onclick="showForm(this.nextSibling.nextSibling.id)"><img src="assets/pics/down.png" style="width: 20px;margin-right: 30px;">Show 2nd quiz</button>
+                <form id="css">
+                    <script src="miseEnForme.js"></script>
+                </form>
+                <button id="quiz3" type="button" onclick="showForm(this.nextSibling.nextSibling.id)"><img src="assets/pics/down.png" style="width: 20px;margin-right: 30px;">Show 3rd quiz</button>
+                <form id="javascript">
+                    <script src="miseEnForme.js"></script>
+                </form>
+          </div>
+        </div>
+       
+        <div class="bg-circle-1 bg-circle"></div>
+        <div class="bg-circle-2 bg-circle"></div>
+        <div class="bg-circle-3 bg-circle"></div>
+        <div class="bg-circle-4 bg-circle"></div>
+        
+    </header>
+    <footer class="py-5 bg-black">
+        <div class="container">
+            <center><p class="text-center text-white m-0 small">Copyright&nbsp;© Quiz game by ALI MAKOUAR 2021</p></center>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+<script src="script.js"></script>
+<script src="quizContent.js"></script>
+
